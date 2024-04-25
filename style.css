@@ -50,16 +50,20 @@ h1 {
   background-color: rgb(255, 255, 255, 0.1);
 }
 #search-bar {
-  flex-grow: 2;
   margin-right: 10px;
   border-radius: 13px;
   border: none;
   background-color: var(--background);
   transition: all 0.3s ease;
+  @media (max-width: 768px) {
+    padding: 5px;
+    flex-grow: 0.7;
+  }
   padding: 20px;
   font-family: roboto;
   font-size: large;
   font-weight: 500;
+  flex-grow: 1;
 }
 #search-bar:focus {
   outline: none;
@@ -69,8 +73,12 @@ h1 {
   outline: none;
   border: none;
   border-radius: 13px;
-  width: 50px;
+  /* width: 50px; */
   transition: all 0.1s ease;
+  @media (max-width: 768px) {
+    flex-grow: 0.3;
+  }
+  flex-grow: 0.03;
 }
 #container:hover {
   background-color: #ffffff;
