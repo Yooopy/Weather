@@ -8,7 +8,7 @@ function getWeather() {
   const city = searchBar.value;
   if (city != "" && city != null) {
     fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=0&appid=${apiKey}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=0&appid=${apiKey}`
     )
       .then((response) => response.json())
       .then((data) => {
