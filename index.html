@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./Assets/icon/cloud-blue.png" rel="icon">
+    <link href="style.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+    <main>
+        <div id="h1-div">
+            <img style="height: 40px;width: 40px;margin-right: 10px;" src="./Assets/icon/cloud.png">
+            <h1>Weather</h1>
+        </div>
+        <article id="main-art"
+            style="display: flex; flex-direction: column;justify-content: center;align-items: center;">
+            <div id="container">
+                <div class="search">
+                    <input type="text" id="search-bar" placeholder="Search for a city...">
+                    <button onclick="createDiv() , getWeather()" id="search-button"><img
+                            style="width: 30px; height: 30px" src="./Assets/icon/magnifier.png" alt="search"></button>
+                </div>
+            </div>
+        </article>
+
+
+
+
+    </main>
+    <footer id="footer">
+        <p id="footer-text">V &copy;2024</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+<!-- <div class='div-inside'>
+    <div style='margin: auto;align-items: center;justify-content: center;display: flex;'><img
+            src='./Assets/icon/dark_mode_black_24dp.svg' alt='sky'
+            style='width: 100px; height: 100px; margin: auto;padding: 10px;'>
+        <p style='margin-right: 20%;font-family: roboto;font-size: x-large;font-weight: bold;'>24&degC</p>
+    </div>
+    <h2 id='city-name'>City Name</h2>
+    <div style='display: flex;overflow-x: scroll;width: 100%;'>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'> <img
+                src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'> <img
+                src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+        <div style='display: flex;flex-direction: column;align-items: center;justify-content: center;'>
+            <img src='./Assets/icon/light_mode_black_24dp.svg' alt='sky'
+                style='width: 50px; height: 50px; margin: auto;padding-right: 10px;padding-left: 10px;'>
+            <p style='font-family: roboto;font-weight: bold;'>12:00</p>
+        </div>
+    </div>
+</div> -->
